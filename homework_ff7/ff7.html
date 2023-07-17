@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            height: 100vh;
+            padding: 0;
+            margin: 0;
+            background: url(./bg-full.jpg);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 1.5rem;
+            font-family: monospace;
+        }
+
+        #main {
+            width: 1300px;
+            height: 620px;
+            background: linear-gradient(#ddd 50%, #000 50%);
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+        }
+
+        #left {
+            width: 620px;
+            height: 620px;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./main.jpg);
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: #fff;
+            padding: 0px 100px;
+            box-sizing: border-box;
+        }
+
+        #left img {
+            height: 200px;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        p {
+            width: 450px;
+        }
+
+        #cloud {
+            box-sizing: border-box;
+            padding: 0px 85px 0px 25px;
+            width: 680px;
+            height: 310px;
+            background: url(./cloud.png)no-repeat right bottom/contain;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        #tifa {
+            box-sizing: border-box;
+            width: 680px;
+            height: 310px;
+            display: flex;
+            background: url(./tifa.png)no-repeat left bottom/contain;
+            align-items: start;
+            flex-direction: column;
+            color: #fff;
+            justify-content: center;
+            padding-left: 250px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="main">
+        <div id="left">
+            <img src="./ps4-ff7.png">
+            <h1>Available Now</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum eveniet accusantium doloremque voluptatum
+                provident, inventore eaque dolores dignissimos consectetur natus iste ullam ut magni quaerat nihil quis
+                blanditiis eligendi recusandae.</p>
+        </div>
+        <div id="cloud">
+            <h1>Cloud</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius quaerat voluptatem nihil pariatur officia
+                voluptates inventore .</p>
+        </div>
+        <div id="tifa">
+            <h1>Tifa</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, cupiditate maiores rerum esse voluptatum
+                eum dignissimos</p>
+        </div>
+    </div>
+</body>
+
+</html>
